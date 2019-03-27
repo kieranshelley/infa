@@ -4,7 +4,7 @@
       <types1:EntryId>Jlv58pIO3M4WwOC-gt-1871408-2018-12-12T02:32:26.567Z::pd.xml</types1:EntryId>
       <types1:Name>Demo_CIH_API</types1:Name>
       <types1:MimeType>application/xml+process</types1:MimeType>
-      <types1:Description>simple API to demo a GET function</types1:Description>
+      <types1:Description>simple API to demo a GET function - new title</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags>.anonymous</types1:Tags>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -12,8 +12,9 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>kshelley@informatica.com.demo.apj</types1:CreatedBy>
       <types1:CreationDate>2018-12-12T02:32:27Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:ModifiedBy>kshelley@informatica.com.demo.apj</types1:ModifiedBy>
+      <types1:ModificationDate>2019-03-27T02:49:24Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
       <types1:PublishedBy>kshelley@informatica.com.demo.apj</types1:PublishedBy>
       <types1:PublicationDate>2018-12-12T02:33:45Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.Demo_CIH_API/Demo_CIH_API.pd.xml</types1:PublishedContributionId>
@@ -24,9 +25,9 @@
                   displayName="Demo_CIH_API"
                   name="Demo_CIH_API">
             <appliesTo/>
-            <description>simple API to demo a GET function</description>
+            <description>simple API to demo a GET function - test1</description>
             <tags>.anonymous</tags>
-            <generator>Informatica Process Designer 9</generator>
+            <generator>Informatica Process Designer 11</generator>
             <input>
                <parameter description="" name="Employee_ID" type="string">
                   <options>
@@ -89,5 +90,5 @@
       <types1:GUID>9HEtguXR3zTdidQE0H4qoM</types1:GUID>
       <types1:DisplayName>Demo_CIH_API</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2019-03-27T01:23:28.781Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2019-03-27T02:49:47.138Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
