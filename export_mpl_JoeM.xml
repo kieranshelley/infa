@@ -268,14 +268,6 @@
 <defaultReaderConfig imx:id="U:bEdPd0-IEemoY1Jb2W8hTw" xsi:type="dsoconfig2:FlatbyteReaderConfig" defaultDynFldPrecision="10" defaultDynFldType="string" lineSequentialBufferLength="1024" schemaType="DataDriven" sourceFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.SourceDir" sourceFileName="Flat_File_Data_Object.dat"/>
 <defaultWriterConfig imx:id="U:bEdPeE-IEemoY1Jb2W8hTw" xsi:type="dsoconfig:FlatbyteWriterConfig" mergeDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" mergeFile="Flat_File_Data_Object1.out" targetFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" targetFileName="Flat_File_Data_Object.out"/>
 </datasource:FlatByteDataSource>
-<folder:Folder imx:id="U:iiZrOU9nEemsLsrBsnvIiA" name="DEV">
-<contents>
-<IObject imx:idref="U:rSYSk09nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
-<IObject imx:idref="U:DNJqIE9oEemsLsrBsnvIiA" xsi:type="mapping:Mapping"/>
-<IObject imx:idref="U:rSYSoE9nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
-<IObject imx:idref="U:bEcoZE-IEemoY1Jb2W8hTw" xsi:type="datasource:FlatByteDataSource"/>
-</contents>
-</folder:Folder>
 <project:Project imx:id="U:d81N209nEemEX5f0T6yoaw" name="JoeM">
 <imx:annotations>
 <imx:IGenericAnnotations>
@@ -286,8 +278,15 @@
 <Annotation imx:id="ID_39" xsi:type="description:Description"/>
 </annotations>
 <contents>
-<IObject imx:idref="U:iiZrOU9nEemsLsrBsnvIiA" xsi:type="folder:Folder"/>
+<IObject imx:id="U:iiZrOU9nEemsLsrBsnvIiA" xsi:type="folder:Folder" name="DEV">
+<contents>
+<IObject imx:idref="U:rSYSk09nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
+<IObject imx:idref="U:DNJqIE9oEemsLsrBsnvIiA" xsi:type="mapping:Mapping"/>
+<IObject imx:idref="U:rSYSoE9nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
+<IObject imx:idref="U:bEcoZE-IEemoY1Jb2W8hTw" xsi:type="datasource:FlatByteDataSource"/>
+</contents>
+</IObject>
 </contents>
 </project:Project>
-<imx:crc value="2524861822"/>
+<imx:crc value="2944074451"/>
 </imx:IMX>
