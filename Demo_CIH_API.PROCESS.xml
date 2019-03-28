@@ -4,8 +4,7 @@
       <types1:EntryId>Jlv58pIO3M4WwOC-gt-1871408-2018-12-12T02:32:26.567Z::pd.xml</types1:EntryId>
       <types1:Name>Demo_CIH_API</types1:Name>
       <types1:MimeType>application/xml+process</types1:MimeType>
-      <types1:Description>simple API to demo a GET function - update to desc
-something else</types1:Description>
+      <types1:Description>simple API to demo a GET function 12345</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags>.anonymous</types1:Tags>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -14,7 +13,7 @@ something else</types1:Description>
       <types1:CreatedBy>kshelley@informatica.com.demo.apj</types1:CreatedBy>
       <types1:CreationDate>2018-12-12T02:32:27Z</types1:CreationDate>
       <types1:ModifiedBy>kshelley@informatica.com.demo.apj</types1:ModifiedBy>
-      <types1:ModificationDate>2019-03-28T01:10:28Z</types1:ModificationDate>
+      <types1:ModificationDate>2019-03-28T01:52:24Z</types1:ModificationDate>
       <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
       <types1:PublishedBy>kshelley@informatica.com.demo.apj</types1:PublishedBy>
       <types1:PublicationDate>2018-12-12T02:33:45Z</types1:PublicationDate>
@@ -26,8 +25,7 @@ something else</types1:Description>
                   displayName="Demo_CIH_API"
                   name="Demo_CIH_API">
             <appliesTo/>
-            <description>simple API to demo a GET function - update to desc
-something else</description>
+            <description>simple API to demo a GET function 12345</description>
             <tags>.anonymous</tags>
             <generator>Informatica Process Designer 11</generator>
             <input>
@@ -92,5 +90,5 @@ something else</description>
       <types1:GUID>9HEtguXR3zTdidQE0H4qoM</types1:GUID>
       <types1:DisplayName>Demo_CIH_API</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2019-03-28T01:11:25.755Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2019-03-28T01:53:10.681Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
