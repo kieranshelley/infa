@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imx:IMX xmlns:imx="http://com.informatica.imx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" serializationSpecVersion="11.0" crcEnabled="1" xmlns:connectinfo1="http://com.informatica.metadata.common.connectinfo/2" versionconnectinfo1="2.4.0" xmlns:typelibrary="http://com.informatica.metadata.common.typesystem.typelibrary/2" versiontypelibrary="2.4.0" xmlns:project="http://com.informatica.metadata.common.project/2" versionproject="2.2.0" xmlns:description="http://com.informatica.metadata.common.description/2" versiondescription="2.1.0" xmlns:source1="http://com.informatica.metadata.common.txhandlerconfig.source/2" versionsource1="2.1.0" xmlns:source="http://com.informatica.metadata.common.transformation.source/2" versionsource="2.1.0" xmlns:target1="http://com.informatica.metadata.common.txhandlerconfig.target/2" versiontarget1="2.4.0" xmlns:resourceaccess1="http://com.informatica.metadata.common.txhandlerconfig.resourceaccess/2" versionresourceaccess1="2.1.0" xmlns:datasourceoperation="http://com.informatica.metadata.flatbyte.generate.datasourceoperation/2" versiondatasourceoperation="2.1.0" xmlns:datarecord="http://com.informatica.metadata.flatbyte.datarecord/2" versiondatarecord="2.3.0" xmlns:connectinfo="http://com.informatica.metadata.relational.connectinfo/0" versionconnectinfo="9.0.7.0" xmlns:datarecord1="http://com.informatica.metadata.relational.datarecord/2" versiondatarecord1="2.4.0" xmlns:avtx="http://com.informatica.metadata.common.transformation.avtx/2" versionavtx="2.4.3" xmlns:optimizer="http://com.informatica.metadata.common.optimizer/1" versionoptimizer="1.0.1" xmlns:txhandlerconfig="http://com.informatica.metadata.common.txhandlerconfig/2" versiontxhandlerconfig="2.1.1" xmlns:parameter="http://com.informatica.metadata.common.parameter/9" versionparameter="9.8.1" xmlns:optimizerconfig="http://com.informatica.metadata.common.optimizerconfig/1" versionoptimizerconfig="1.0.0" xmlns:mapping="http://com.informatica.metadata.common.mapping/2" versionmapping="2.10.1" xmlns:types="http://com.informatica.metadata.common.types/2" versiontypes="2.4.0" xmlns:adapter="http://com.informatica.metadata.common.adapter/2" versionadapter="2.2.0" xmlns:datasourceoperation1="http://com.informatica.metadata.common.datasourceoperation/2" versiondatasourceoperation1="2.6.1" xmlns:datahandler="http://com.informatica.metadata.common.datahandler/2" versiondatahandler="2.2.0" xmlns:runtime="http://com.informatica.metadata.common.runtime/2" versionruntime="2.12.1" xmlns:transformation="http://com.informatica.metadata.common.transformation/3" versiontransformation="3.3.0" xmlns:codepage="http://com.informatica.metadata.common.codepage/2" versioncodepage="2.1.0" xmlns:dsoconfig1="http://com.informatica.metadata.common.dsoconfig/2" versiondsoconfig1="2.1.0" xmlns:target="http://com.informatica.metadata.common.transformation.target/2" versiontarget="2.4.0" xmlns:dsoconfig3="http://com.informatica.metadata.relational.dsoconfig/2" versiondsoconfig3="2.2.0" xmlns:core="http://com.informatica.metadata.common.core/2" versioncore="2.1.1" xmlns:dsoconfig2="http://com.informatica.metadata.flatbyte.parse.dsoconfig/2" versiondsoconfig2="2.10.0" xmlns:folder="http://com.informatica.metadata.common.folder/2" versionfolder="2.1.1" xmlns:resourceaccess="http://com.informatica.metadata.common.transformation.resourceaccess/2" versionresourceaccess="2.3.0" xmlns:datasource="http://com.informatica.metadata.flatbyte.datasource/2" versiondatasource="2.2.0" xmlns:datasource1="http://com.informatica.metadata.common.datasource/2" versiondatasource1="2.2.0" xmlns:dsoconfig="http://com.informatica.metadata.flatbyte.generate.dsoconfig/2" versiondsoconfig="2.6.0" xmlns:datasourceoperation4="http://com.informatica.metadata.relational.datasourceoperation/2" versiondatasourceoperation4="2.9.0" xmlns:datasourceoperation3="http://com.informatica.metadata.flatbyte.parse.datasourceoperation/2" versiondatasourceoperation3="2.0.0" xmlns:pdo="http://com.informatica.metadata.common.optimizerconfig.pdo/1" versionpdo="1.0.0" xmlns:datasourceoperation2="http://com.informatica.metadata.flatbyte.datasourceoperation/2" versiondatasourceoperation2="2.0.0" xmlns:typesystem="http://com.informatica.metadata.common.typesystem/2" versiontypesystem="2.2.0" xsi:schemaLocation="http://com.informatica.imx IMX.xsd http://com.informatica.metadata.common.connectinfo/2 com.informatica.metadata.common.connectinfo.xsd http://com.informatica.metadata.common.typesystem.typelibrary/2 com.informatica.metadata.common.typesystem.typelibrary.xsd http://com.informatica.metadata.common.project/2 com.informatica.metadata.common.project.xsd http://com.informatica.metadata.common.description/2 com.informatica.metadata.common.description.xsd http://com.informatica.metadata.common.txhandlerconfig.source/2 com.informatica.metadata.common.txhandlerconfig.source.xsd http://com.informatica.metadata.common.transformation.source/2 com.informatica.metadata.common.transformation.source.xsd http://com.informatica.metadata.common.txhandlerconfig.target/2 com.informatica.metadata.common.txhandlerconfig.target.xsd http://com.informatica.metadata.common.txhandlerconfig.resourceaccess/2 com.informatica.metadata.common.txhandlerconfig.resourceaccess.xsd http://com.informatica.metadata.flatbyte.generate.datasourceoperation/2 com.informatica.metadata.flatbyte.generate.datasourceoperation.xsd http://com.informatica.metadata.flatbyte.datarecord/2 com.informatica.metadata.flatbyte.datarecord.xsd http://com.informatica.metadata.relational.connectinfo/0 com.informatica.metadata.relational.connectinfo.xsd http://com.informatica.metadata.relational.datarecord/2 com.informatica.metadata.relational.datarecord.xsd http://com.informatica.metadata.common.transformation.avtx/2 com.informatica.metadata.common.transformation.avtx.xsd http://com.informatica.metadata.common.optimizer/1 com.informatica.metadata.common.optimizer.xsd http://com.informatica.metadata.common.txhandlerconfig/2 com.informatica.metadata.common.txhandlerconfig.xsd http://com.informatica.metadata.common.parameter/9 com.informatica.metadata.common.parameter.xsd http://com.informatica.metadata.common.optimizerconfig/1 com.informatica.metadata.common.optimizerconfig.xsd http://com.informatica.metadata.common.mapping/2 com.informatica.metadata.common.mapping.xsd http://com.informatica.metadata.common.types/2 com.informatica.metadata.common.types.xsd http://com.informatica.metadata.common.adapter/2 com.informatica.metadata.common.adapter.xsd http://com.informatica.metadata.common.datasourceoperation/2 com.informatica.metadata.common.datasourceoperation.xsd http://com.informatica.metadata.common.datahandler/2 com.informatica.metadata.common.datahandler.xsd http://com.informatica.metadata.common.runtime/2 com.informatica.metadata.common.runtime.xsd http://com.informatica.metadata.common.transformation/3 com.informatica.metadata.common.transformation.xsd http://com.informatica.metadata.common.codepage/2 com.informatica.metadata.common.codepage.xsd http://com.informatica.metadata.common.dsoconfig/2 com.informatica.metadata.common.dsoconfig.xsd http://com.informatica.metadata.common.transformation.target/2 com.informatica.metadata.common.transformation.target.xsd http://com.informatica.metadata.relational.dsoconfig/2 com.informatica.metadata.relational.dsoconfig.xsd http://com.informatica.metadata.common.core/2 com.informatica.metadata.common.core.xsd http://com.informatica.metadata.flatbyte.parse.dsoconfig/2 com.informatica.metadata.flatbyte.parse.dsoconfig.xsd http://com.informatica.metadata.common.folder/2 com.informatica.metadata.common.folder.xsd http://com.informatica.metadata.common.transformation.resourceaccess/2 com.informatica.metadata.common.transformation.resourceaccess.xsd http://com.informatica.metadata.flatbyte.datasource/2 com.informatica.metadata.flatbyte.datasource.xsd http://com.informatica.metadata.common.datasource/2 com.informatica.metadata.common.datasource.xsd http://com.informatica.metadata.flatbyte.generate.dsoconfig/2 com.informatica.metadata.flatbyte.generate.dsoconfig.xsd http://com.informatica.metadata.relational.datasourceoperation/2 com.informatica.metadata.relational.datasourceoperation.xsd http://com.informatica.metadata.flatbyte.parse.datasourceoperation/2 com.informatica.metadata.flatbyte.parse.datasourceoperation.xsd http://com.informatica.metadata.common.optimizerconfig.pdo/1 com.informatica.metadata.common.optimizerconfig.pdo.xsd http://com.informatica.metadata.flatbyte.datasourceoperation/2 com.informatica.metadata.flatbyte.datasourceoperation.xsd http://com.informatica.metadata.common.typesystem/2 com.informatica.metadata.common.typesystem.xsd">
+<connectinfo:OracleNativeConnectInfo imx:id="stringIdentity:Ora_CRM" connectionType="ORACLE" name="Ora_CRM">
+<defaultAttributes imx:id="U:n1qTQE1HEeid_z5ucNQ7pg" xsi:type="connectinfo1:ConnectionPoolAttributes"/>
+</connectinfo:OracleNativeConnectInfo>
+<mapping:Mapping imx:id="U:DNJqIE9oEemsLsrBsnvIiA" name="Mapping">
+<characteristics>
+<Characteristic imx:id="ID_1" xsi:type="runtime:RuntimeCharacteristic" maximumRuntimeIntervalPerSource="PT0S" selectedExecutionEnvironmentName="native" stateStore.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.StateStore">
+<environments>
+<ExecutionEnvironment imx:id="ID_2" xsi:type="runtime:NativeExecutionEnvironment">
+<partitioningConfig imx:id="ID_3" xsi:type="runtime:NativePartitioningConfig"/>
+</ExecutionEnvironment>
+</environments>
+<handlers>
+<TxHandlerConfig imx:id="ID_4" xsi:type="source1:SourceTxHandlerConfig" txInstance="U:fZSTUE9pEemsLsrBsnvIiA" selectedAdapter="smd:com.informatica.metadata.seed.relational.CanonicalRelational.relationalReaderDataAdapter"/>
+<TxHandlerConfig imx:id="ID_5" xsi:type="target1:TargetTxHandlerConfig" txInstance="U:n01LL0-IEemoY1Jb2W8hTw" selectedAdapter="smd:com.informatica.metadata.seed.flatbyte.FlatFile.flatFileGeneratingDataAdapter" rejectDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.RejectDir" rejectFile="Flat_File_Data_Object.bad"/>
+</handlers>
+<streamingConfig imx:id="ID_6" xsi:type="runtime:StreamingConfig" batchInterval="PT20S" cacheRefreshInterval="PT1H"/>
+</Characteristic>
+<Characteristic imx:id="ID_7" xsi:type="optimizer:OptimizerCharacteristic">
+<configs>
+<OptimizerConfig imx:id="ID_8" xsi:type="pdo:PushdownConfig"/>
+</configs>
+</Characteristic>
+</characteristics>
+<definedLibraries imx:id="U:DNJqIU9oEemsLsrBsnvIiA" xsi:type="typelibrary:TypeLibrary" name="m_Type_Definition_Library" typeSystem="smd:com.informatica.metadata.seed.platform.Platform.typesystem"/>
+<instances>
+<Instance imx:id="U:fZSTUE9pEemsLsrBsnvIiA" xsi:type="mapping:Instance" name="Read_CRM_CUSTOMER_ADDRESS1" transformation="U:fZSTUk9pEemsLsrBsnvIiA">
+<fromOutlineLinks>
+<OutlineLink imx:id="ID_9" xsi:type="mapping:OutlineLink" fromInstance="U:fZSTUE9pEemsLsrBsnvIiA" toInstance="U:fZSTUU9pEemsLsrBsnvIiA"/>
+</fromOutlineLinks>
+<ports>
+<TransformationFieldPort imx:id="ID_10" xsi:type="mapping:TransformationFieldPort" instance="U:fZSTUE9pEemsLsrBsnvIiA" transformationField="U:fZS5mE9pEemsLsrBsnvIiA">
+<children>
+<NestedPort imx:id="ID_11" xsi:type="mapping:NestedPort" toPorts="ID_12" parent="ID_10" structuralFeature="U:fZTgrE9pEemsLsrBsnvIiA"/>
+</children>
+</TransformationFieldPort>
+</ports>
+</Instance>
+<Instance imx:id="U:fZSTUU9pEemsLsrBsnvIiA" xsi:type="mapping:Instance" name="Address_Validator" toOutlineLinks="ID_9" transformation="U:fZSTU09pEemsLsrBsnvIiA">
+<fromOutlineLinks>
+<OutlineLink imx:id="ID_13" xsi:type="mapping:OutlineLink" fromInstance="U:fZSTUU9pEemsLsrBsnvIiA" toInstance="U:n01LL0-IEemoY1Jb2W8hTw"/>
+</fromOutlineLinks>
+<ports>
+<TransformationFieldPort imx:id="ID_12" xsi:type="mapping:TransformationFieldPort" fromPort="ID_11" instance="U:fZSTUU9pEemsLsrBsnvIiA" transformationField="U:n01yQ0-IEemoY1Jb2W8hTw"/>
+<TransformationFieldPort imx:id="ID_14" xsi:type="mapping:TransformationFieldPort" toPorts="ID_15" instance="U:fZSTUU9pEemsLsrBsnvIiA" transformationField="U:fZSTb09pEemsLsrBsnvIiA"/>
+</ports>
+</Instance>
+<Instance imx:id="U:n01LL0-IEemoY1Jb2W8hTw" xsi:type="mapping:Instance" name="Write_Flat_File_Data_Object" toOutlineLinks="ID_13" transformation="U:n01LME-IEemoY1Jb2W8hTw">
+<ports>
+<TransformationFieldPort imx:id="ID_16" xsi:type="mapping:TransformationFieldPort" instance="U:n01LL0-IEemoY1Jb2W8hTw" transformationField="U:n01LMk-IEemoY1Jb2W8hTw">
+<children>
+<NestedPort imx:id="ID_15" xsi:type="mapping:NestedPort" fromPort="ID_14" parent="ID_16" structuralFeature="U:iXlfRE-IEemoY1Jb2W8hTw"/>
+</children>
+</TransformationFieldPort>
+</ports>
+</Instance>
+</instances>
+<transformations>
+<AbstractTransformation imx:id="U:fZSTUk9pEemsLsrBsnvIiA" xsi:type="source:SourceTx" active="true" name="Read_CRM_CUSTOMER_ADDRESS1" dso="U:fZS5lk9pEemsLsrBsnvIiA">
+<anonymousDso imx:id="U:fZS5lk9pEemsLsrBsnvIiA" xsi:type="datasourceoperation4:ReadRelationalDataSourceOperation" name="CRM_CUSTOMER_ADDRESS1" tableDefinitions="U:rSYSk09nEemsLsrBsnvIiA" typeSystem="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem">
+<defaultConfigs>
+<DSORuntimeConfig imx:id="U:fZS5mU9pEemsLsrBsnvIiA" xsi:type="dsoconfig3:RelationalDSORuntimeConfig" connectInfo="stringIdentity:Ora_CRM" connectionName="Ora_CRM"/>
+</defaultConfigs>
+<operations>
+<Capability imx:id="ID_17" xsi:type="datasourceoperation1:ReadCapability" defaultAdapter="smd:com.informatica.metadata.seed.relational.CanonicalRelational.relationalReaderDataAdapter" defaultConfig="U:fZS5mU9pEemsLsrBsnvIiA">
+<outGroups>
+<DataAccessGroup imx:id="ID_18" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:fZS5mk9pEemsLsrBsnvIiA"/>
+</outGroups>
+</Capability>
+<Capability imx:id="ID_19" xsi:type="datasourceoperation1:LookupCapability" defaultAdapter="smd:com.informatica.metadata.seed.relational.CanonicalRelational.relationalReaderDataAdapter" defaultConfig="U:fZS5mU9pEemsLsrBsnvIiA"/>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:fZS5mk9pEemsLsrBsnvIiA" xsi:type="typelibrary:ComplexType" name="CRM_CUSTOMER_ADDRESS1">
+<features>
+<StructuralFeature imx:id="U:fZTgq09pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdecimal" lower="1" name="CUST_ID" precision="15" upper="1"/>
+<StructuralFeature imx:id="U:fZTgrE9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_ADDRESS" nullable="true" precision="100" upper="1"/>
+<StructuralFeature imx:id="U:fZTgrU9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_POSTCODE" nullable="true" precision="20" upper="1"/>
+<StructuralFeature imx:id="U:fZTgrk9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_CITY" nullable="true" precision="50" upper="1"/>
+<StructuralFeature imx:id="U:fZTgr09pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_PROVINCE" nullable="true" precision="50" upper="1"/>
+<StructuralFeature imx:id="U:fZTgsE9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_COUNTRY" nullable="true" precision="50" upper="1"/>
+<StructuralFeature imx:id="U:fZTgsU9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_HOUSENAME" nullable="true" precision="100" upper="1"/>
+<StructuralFeature imx:id="U:fZTgsk9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_STREET" nullable="true" precision="100" upper="1"/>
+<StructuralFeature imx:id="U:fZTgs09pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_HOUSENUMBER" nullable="true" precision="20" upper="1"/>
+<StructuralFeature imx:id="U:fZTgtE9pEemsLsrBsnvIiA" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="CUST_COUNTRY_ISO" nullable="true" precision="10" upper="1"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<relationalFields>
+<RelationalField imx:id="ID_20" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSlE9nEemsLsrBsnvIiA" feature="U:fZTgq09pEemsLsrBsnvIiA" name="CUST_ID" odbcPrecision="15" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdecimal" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_22" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSlU9nEemsLsrBsnvIiA" feature="U:fZTgrE9pEemsLsrBsnvIiA" name="CUST_ADDRESS" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_23" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSlk9nEemsLsrBsnvIiA" feature="U:fZTgrU9pEemsLsrBsnvIiA" name="CUST_POSTCODE" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_24" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSl09nEemsLsrBsnvIiA" feature="U:fZTgrk9pEemsLsrBsnvIiA" name="CUST_CITY" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_25" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSmE9nEemsLsrBsnvIiA" feature="U:fZTgr09pEemsLsrBsnvIiA" name="CUST_PROVINCE" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_26" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSmU9nEemsLsrBsnvIiA" feature="U:fZTgsE9pEemsLsrBsnvIiA" name="CUST_COUNTRY" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_27" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSmk9nEemsLsrBsnvIiA" feature="U:fZTgsU9pEemsLsrBsnvIiA" name="CUST_HOUSENAME" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_28" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSm09nEemsLsrBsnvIiA" feature="U:fZTgsk9pEemsLsrBsnvIiA" name="CUST_STREET" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_29" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSnE9nEemsLsrBsnvIiA" feature="U:fZTgs09pEemsLsrBsnvIiA" name="CUST_HOUSENUMBER" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+<RelationalField imx:id="ID_30" xsi:type="datasourceoperation4:RelationalField" column="U:rSYSnU9nEemsLsrBsnvIiA" feature="U:fZTgtE9pEemsLsrBsnvIiA" name="CUST_COUNTRY_ISO" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_21"/>
+</relationalFields>
+<relationalRecordInstances>
+<RelationalRecordInstance imx:id="ID_21" xsi:type="datasourceoperation4:RelationalRecordInstance" name="CRM_CUSTOMER_ADDRESS1" record="U:rSYSk09nEemsLsrBsnvIiA"/>
+</relationalRecordInstances>
+</anonymousDso>
+<sourceInterfaces>
+<SourceDataInterface imx:id="U:fZS5l09pEemsLsrBsnvIiA" xsi:type="source:SourceDataInterface" name="Group" output="true">
+<sourceFields>
+<SourceTxField imx:id="U:fZS5mE9pEemsLsrBsnvIiA" xsi:type="source:SourceTxField" type="U:fZS5mk9pEemsLsrBsnvIiA" name="output" output="true"/>
+</sourceFields>
+</SourceDataInterface>
+</sourceInterfaces>
+</AbstractTransformation>
+<AbstractTransformation imx:id="U:fZSTU09pEemsLsrBsnvIiA" xsi:type="avtx:AvTx" name="Address_Validator" transformationConfiguration="smd:com.informatica.extensions.transformation.seed.AvTx.configuration" activeInputStrategy="Discrete" defaultCountry="USA">
+<avDataInterface>
+<AvDataInterface imx:id="U:fZSTVE9pEemsLsrBsnvIiA" xsi:type="avtx:AvDataInterface" input="true" name="Inputs">
+<avFields>
+<AvField imx:id="U:n01yQ0-IEemoY1Jb2W8hTw" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" input="true" name="DiscreteStreetComplete1" groupId="Discrete" internalName="Street%23COMPLETE%231" required="false"/>
+</avFields>
+</AvDataInterface>
+<AvDataInterface imx:id="U:fZSTVU9pEemsLsrBsnvIiA" xsi:type="avtx:AvDataInterface" name="Outputs" output="true">
+<avFields>
+<AvField imx:id="U:fZSTVk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsOrganizationDescriptor1" output="true" groupId="AddressElements" internalName="OUT%23Organization%23DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTV09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsOrganizationDepartment1" output="true" groupId="AddressElements" internalName="OUT%23Organization%23DEPARTMENT%231" required="false"/>
+<AvField imx:id="U:fZSTWE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsOrganizationName1" output="true" groupId="AddressElements" internalName="OUT%23Organization%23NAME%231" required="false"/>
+<AvField imx:id="U:fZSTWU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsOrganizationComplete1" output="true" groupId="AddressElements" internalName="OUT%23Organization%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTWk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsBuildingNumber1" output="true" groupId="AddressElements" internalName="OUT%23Building%23NUMBER%231" required="false"/>
+<AvField imx:id="U:fZSTW09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsBuildingNumber2" output="true" groupId="AddressElements" internalName="OUT%23Building%23NUMBER%232" required="false"/>
+<AvField imx:id="U:fZSTXE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsBuildingName1" output="true" groupId="AddressElements" internalName="OUT%23Building%23NAME%231" required="false"/>
+<AvField imx:id="U:fZSTXU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsBuildingName2" output="true" groupId="AddressElements" internalName="OUT%23Building%23NAME%232" required="false"/>
+<AvField imx:id="U:fZSTXk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsBuildingDescriptor1" output="true" groupId="AddressElements" internalName="OUT%23Building%23DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTX09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsBuildingDescriptor2" output="true" groupId="AddressElements" internalName="OUT%23Building%23DESCRIPTOR%232" required="false"/>
+<AvField imx:id="U:fZSTYE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsBuildingComplete1" output="true" groupId="AddressElements" internalName="OUT%23Building%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTYU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsBuildingComplete2" output="true" groupId="AddressElements" internalName="OUT%23Building%23COMPLETE%232" required="false"/>
+<AvField imx:id="U:fZSTYk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsSub_buildingNumber1" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23NUMBER%231" required="false"/>
+<AvField imx:id="U:fZSTY09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsSub_buildingNumber2" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23NUMBER%232" required="false"/>
+<AvField imx:id="U:fZSTZE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsSub_buildingName1" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23NAME%231" required="false"/>
+<AvField imx:id="U:fZSTZU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsSub_buildingName2" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23NAME%232" required="false"/>
+<AvField imx:id="U:fZSTZk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsSub_buildingDescriptor1" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTZ09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsSub_buildingDescriptor2" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23DESCRIPTOR%232" required="false"/>
+<AvField imx:id="U:fZSTaE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsSub_buildingComplete1" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTaU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsSub_buildingComplete2" output="true" groupId="AddressElements" internalName="OUT%23SubBuilding%23COMPLETE%232" required="false"/>
+<AvField imx:id="U:fZSTak9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="30" upper="1" name="AddressElementsStreetNumberComplete1" output="true" groupId="AddressElements" internalName="OUT%23Number%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTa09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetNumberDescriptor1" output="true" groupId="AddressElements" internalName="OUT%23Number%23DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTbE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetNumber1" output="true" groupId="AddressElements" internalName="OUT%23Number%23NUMBER%231" required="false"/>
+<AvField imx:id="U:fZSTbU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetComplete1" output="true" groupId="AddressElements" internalName="OUT%23Street%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTbk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetComplete2" output="true" groupId="AddressElements" internalName="OUT%23Street%23COMPLETE%232" required="false"/>
+<AvField imx:id="U:fZSTb09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetCompleteWithNumber1" output="true" groupId="AddressElements" internalName="OUT%23Street%23COMPLETE_WITH_NUMBER%231" required="false"/>
+<AvField imx:id="U:fZSTcE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetCompleteWithNumber2" output="true" groupId="AddressElements" internalName="OUT%23Street%23COMPLETE_WITH_NUMBER%232" required="false"/>
+<AvField imx:id="U:fZSTcU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetName1" output="true" groupId="AddressElements" internalName="OUT%23Street%23NAME%231" required="false"/>
+<AvField imx:id="U:fZSTck9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsStreetName2" output="true" groupId="AddressElements" internalName="OUT%23Street%23NAME%232" required="false"/>
+<AvField imx:id="U:fZSTc09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetPre_Descriptor1" output="true" groupId="AddressElements" internalName="OUT%23Street%23PRE_DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTdE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetPost_Descriptor1" output="true" groupId="AddressElements" internalName="OUT%23Street%23POST_DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTdU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetPre_Directional1" output="true" groupId="AddressElements" internalName="OUT%23Street%23PRE_DIRECTIONAL%231" required="false"/>
+<AvField imx:id="U:fZSTdk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsStreetPost_Directional1" output="true" groupId="AddressElements" internalName="OUT%23Street%23POST_DIRECTIONAL%231" required="false"/>
+<AvField imx:id="U:fZSTd09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="30" upper="1" name="AddressElementsPostalPhraseAdditionalInfo1" output="true" groupId="AddressElements" internalName="OUT%23DeliveryService%23ADD_INFO%231" required="false"/>
+<AvField imx:id="U:fZSTeE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsPostalPhraseComplete1" output="true" groupId="AddressElements" internalName="OUT%23DeliveryService%23COMPLETE%231" required="false"/>
+<AvField imx:id="U:fZSTeU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="30" upper="1" name="AddressElementsPostalPhraseDescriptor1" output="true" groupId="AddressElements" internalName="OUT%23DeliveryService%23DESCRIPTOR%231" required="false"/>
+<AvField imx:id="U:fZSTek9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="20" upper="1" name="AddressElementsPostalPhraseNumber1" output="true" groupId="AddressElements" internalName="OUT%23DeliveryService%23NUMBER%231" required="false"/>
+<AvField imx:id="U:fZSTe09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="50" upper="1" name="AddressElementsPostalPhraseComplete2" output="true" groupId="AddressElements" internalName="OUT%23DeliveryService%23COMPLETE%232" required="false"/>
+<AvField imx:id="U:fZSTfE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine1" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%231" required="false"/>
+<AvField imx:id="U:fZSTfU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine2" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%232" required="false"/>
+<AvField imx:id="U:fZSTfk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine3" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%233" required="false"/>
+<AvField imx:id="U:fZSTf09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine4" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%234" required="false"/>
+<AvField imx:id="U:fZSTgE9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine5" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%235" required="false"/>
+<AvField imx:id="U:fZSTgU9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsDeliveryAddressLine6" output="true" groupId="AddressElements" internalName="OUT%23DeliveryAddressLine%236" required="false"/>
+<AvField imx:id="U:fZSTgk9pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsBuildingCompleteWithSub_building1" output="true" groupId="AddressElements" internalName="OUT%23Building%23COMPLETE_WITH_SUBBUILDING%231" required="false"/>
+<AvField imx:id="U:fZSTg09pEemsLsrBsnvIiA" xsi:type="avtx:AvField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="128" upper="1" name="AddressElementsBuildingCompleteWithSub_building2" output="true" groupId="AddressElements" internalName="OUT%23Building%23COMPLETE_WITH_SUBBUILDING%232" required="false"/>
+</avFields>
+</AvDataInterface>
+</avDataInterface>
+</AbstractTransformation>
+<AbstractTransformation imx:id="U:n01LME-IEemoY1Jb2W8hTw" xsi:type="target:TargetTx" active="true" name="Write_Flat_File_Data_Object" dso="U:bEdPdU-IEemoY1Jb2W8hTw">
+<targetInterfaces>
+<TargetDataInterface imx:id="U:n01LMU-IEemoY1Jb2W8hTw" xsi:type="target:TargetDataInterface" input="true" name="Group">
+<targetFields>
+<TargetTxField imx:id="U:n01LMk-IEemoY1Jb2W8hTw" xsi:type="target:TargetTxField" type="U:bEdPek-IEemoY1Jb2W8hTw" input="true" name="Input"/>
+</targetFields>
+</TargetDataInterface>
+</targetInterfaces>
+</AbstractTransformation>
+</transformations>
+</mapping:Mapping>
+<datarecord1:Table imx:id="U:rSYSoE9nEemsLsrBsnvIiA" connection="stringIdentity:Ora_CRM" connectionName="Ora_CRM" connectionType="com.informatica.metadata.relational.connectinfo.OracleNativeConnectInfo" name="CRM_CUSTOMER_MAIN1" physicalName="CRM_CUSTOMER_MAIN" primaryKey="U:rSYSq09nEemsLsrBsnvIiA">
+<columns>
+<Column imx:id="U:rSYSoU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fnumber%28p%2Cs%29" name="CUST_ID" odbcPrecision="15" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdecimal" precision="15"/>
+<Column imx:id="U:rSYSok9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_CODE" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
+<Column imx:id="U:rSYSo09nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_NAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_FIRSTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_LASTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpk9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_MIDDLENAME" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSp09nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_GENDER" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
+<Column imx:id="U:rSYSqE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_COUNTRY" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
+<Column imx:id="U:rSYSqU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_TIER" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSqk9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fdate" name="CUST_DOB" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdate" precision="19"/>
+</columns>
+<uniqueKeys>
+<UniqueKey imx:id="U:rSYSq09nEemsLsrBsnvIiA" xsi:type="datarecord1:PrimaryKey" columns="U:rSYSoU9nEemsLsrBsnvIiA" name="CRM_CUSTOMER_MAIN_PK"/>
+</uniqueKeys>
+</datarecord1:Table>
+<datarecord1:Table imx:id="U:rSYSk09nEemsLsrBsnvIiA" connection="stringIdentity:Ora_CRM" connectionName="Ora_CRM" connectionType="com.informatica.metadata.relational.connectinfo.OracleNativeConnectInfo" name="CRM_CUSTOMER_ADDRESS1" physicalName="CRM_CUSTOMER_ADDRESS" primaryKey="U:rSYSn09nEemsLsrBsnvIiA">
+<columns>
+<Column imx:id="U:rSYSlE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fnumber%28p%2Cs%29" name="CUST_ID" odbcPrecision="15" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdecimal" precision="15"/>
+<Column imx:id="U:rSYSlU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_ADDRESS" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSlk9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_POSTCODE" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSl09nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_CITY" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
+<Column imx:id="U:rSYSmE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_PROVINCE" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
+<Column imx:id="U:rSYSmU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_COUNTRY" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
+<Column imx:id="U:rSYSmk9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_HOUSENAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSm09nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_STREET" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSnE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_HOUSENUMBER" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSnU9nEemsLsrBsnvIiA" xsi:type="datarecord1:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_COUNTRY_ISO" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
+</columns>
+<foreignKeys>
+<ForeignKey imx:id="U:rSYSnk9nEemsLsrBsnvIiA" xsi:type="datarecord1:ForeignKey" columns="U:rSYSlE9nEemsLsrBsnvIiA" key="U:rSYSq09nEemsLsrBsnvIiA" name="CRM_CUSTOMER_ADDRESS_FK1" refColumnNames="CUST_ID" refConstraintName="CRM_CUSTOMER_MAIN_PK" refTableName="CRM_CUSTOMER_MAIN"/>
+</foreignKeys>
+<uniqueKeys>
+<UniqueKey imx:id="U:rSYSn09nEemsLsrBsnvIiA" xsi:type="datarecord1:PrimaryKey" columns="U:rSYSlE9nEemsLsrBsnvIiA" name="CRM_CUSTOMER_ADDRESS_PK"/>
+</uniqueKeys>
+</datarecord1:Table>
+<datasource:FlatByteDataSource imx:id="U:bEcoZE-IEemoY1Jb2W8hTw" name="Flat_File_Data_Object">
+<fileDefinitions>
+<FlatByteDefinition imx:id="U:bEdPe0-IEemoY1Jb2W8hTw" xsi:type="datarecord:FlatByteDefinition" codePageObject="smd:com.informatica.metadata.seed.platform.CodePages.codepagesystem%2F2252" defaultDateFormat="A++19+YYYY-MM-DD+HH24:MI:SS" defaultDecimalSeparator="." name="FileByteDefinition">
+<columns>
+<FlatByteColumn imx:id="U:iXlfRU-IEemoY1Jb2W8hTw" xsi:type="datarecord:FlatByteColumn" type="smd:com.informatica.metadata.seed.flatbyte.FlatFileTypeSystem.typesystem%2Fstring" flatByteRecord="U:bEdPe0-IEemoY1Jb2W8hTw" name="Validated_Address" precision="50"/>
+</columns>
+<recordStrategy imx:id="ID_31" xsi:type="datarecord:CharacterDelimitedRecordStrategy" flatByteRecord="U:bEdPe0-IEemoY1Jb2W8hTw" columnDelimiterCharacters="%2C"/>
+</FlatByteDefinition>
+</fileDefinitions>
+<defaultGenerator imx:id="U:bEdPdU-IEemoY1Jb2W8hTw" xsi:type="datasourceoperation:FlatByteGenerateDataSourceOperation" dataSource="U:bEcoZE-IEemoY1Jb2W8hTw" recordDefinition="U:bEdPe0-IEemoY1Jb2W8hTw">
+<operations>
+<Capability imx:id="ID_32" xsi:type="datasourceoperation1:WriteCapability" defaultAdapter="smd:com.informatica.metadata.seed.flatbyte.FlatFile.flatFileGeneratingDataAdapter" defaultConfig="U:bEdPeE-IEemoY1Jb2W8hTw">
+<inGroups>
+<DataAccessGroup imx:id="ID_33" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:bEdPek-IEemoY1Jb2W8hTw" input="true"/>
+</inGroups>
+</Capability>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:bEdPek-IEemoY1Jb2W8hTw" xsi:type="typelibrary:ComplexType" name="input">
+<features>
+<StructuralFeature imx:id="U:iXlfRE-IEemoY1Jb2W8hTw" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="Validated_Address" precision="50" upper="1"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<columnToInterfaceMap>
+<ColumnFeature imx:id="ID_34" xsi:type="datasourceoperation2:ColumnFeature" column="U:iXlfRU-IEemoY1Jb2W8hTw" feature="U:iXlfRE-IEemoY1Jb2W8hTw"/>
+</columnToInterfaceMap>
+</defaultGenerator>
+<defaultParser imx:id="U:bEdPdk-IEemoY1Jb2W8hTw" xsi:type="datasourceoperation3:FlatByteParseDataSourceOperation" dataSource="U:bEcoZE-IEemoY1Jb2W8hTw" recordDefinition="U:bEdPe0-IEemoY1Jb2W8hTw">
+<operations>
+<Capability imx:id="ID_35" xsi:type="datasourceoperation1:ReadCapability" defaultAdapter="smd:com.informatica.metadata.seed.flatbyte.FlatFile.flatFileParsingDataAdapter" defaultConfig="U:bEdPd0-IEemoY1Jb2W8hTw">
+<outGroups>
+<DataAccessGroup imx:id="ID_36" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:bEdPeU-IEemoY1Jb2W8hTw"/>
+</outGroups>
+</Capability>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:bEdPeU-IEemoY1Jb2W8hTw" xsi:type="typelibrary:ComplexType" name="output">
+<features>
+<StructuralFeature imx:id="U:iXlfQ0-IEemoY1Jb2W8hTw" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="Validated_Address" precision="50" upper="1"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<columnToInterfaceMap>
+<ColumnFeature imx:id="ID_37" xsi:type="datasourceoperation2:ColumnFeature" column="U:iXlfRU-IEemoY1Jb2W8hTw" feature="U:iXlfQ0-IEemoY1Jb2W8hTw"/>
+</columnToInterfaceMap>
+<parseStrategy imx:id="ID_38" xsi:type="datasourceoperation3:CharacterDelimitedParseStrategy" entity="U:bEdPdk-IEemoY1Jb2W8hTw" escapeCharacterRemoved="true" lineBreakCharacter="%5C012"/>
+</defaultParser>
+<defaultReaderConfig imx:id="U:bEdPd0-IEemoY1Jb2W8hTw" xsi:type="dsoconfig2:FlatbyteReaderConfig" defaultDynFldPrecision="10" defaultDynFldType="string" lineSequentialBufferLength="1024" schemaType="DataDriven" sourceFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.SourceDir" sourceFileName="Flat_File_Data_Object.dat"/>
+<defaultWriterConfig imx:id="U:bEdPeE-IEemoY1Jb2W8hTw" xsi:type="dsoconfig:FlatbyteWriterConfig" mergeDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" mergeFile="Flat_File_Data_Object1.out" targetFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" targetFileName="Flat_File_Data_Object.out"/>
+</datasource:FlatByteDataSource>
+<project:Project imx:id="U:d81N209nEemEX5f0T6yoaw" name="JoeM">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.tools.objectie key1="projectName" value1="%23%23tttinfasvc.infa.com"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<annotations>
+<Annotation imx:id="ID_39" xsi:type="description:Description"/>
+</annotations>
+<contents>
+<IObject imx:id="U:iiZrOU9nEemsLsrBsnvIiA" xsi:type="folder:Folder" name="DEV">
+<contents>
+<IObject imx:idref="U:DNJqIE9oEemsLsrBsnvIiA" xsi:type="mapping:Mapping"/>
+<IObject imx:idref="U:rSYSoE9nEemsLsrBsnvIiA" xsi:type="datarecord1:Table"/>
+<IObject imx:idref="U:rSYSk09nEemsLsrBsnvIiA" xsi:type="datarecord1:Table"/>
+<IObject imx:idref="U:bEcoZE-IEemoY1Jb2W8hTw" xsi:type="datasource:FlatByteDataSource"/>
+</contents>
+</IObject>
+</contents>
+</project:Project>
+<imx:crc value="1357770047"/>
+</imx:IMX>
