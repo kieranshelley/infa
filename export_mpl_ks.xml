@@ -271,12 +271,6 @@
 <defaultReaderConfig imx:id="U:faHXc1EHEem28EdceaNwiw" xsi:type="dsoconfig:FlatbyteReaderConfig" defaultDynFldPrecision="10" defaultDynFldType="string" lineSequentialBufferLength="1024" schemaType="DataDriven" sourceFileDirectory="C:%5CUsers%5Ckshelley%5COneDrive+-+Informatica%5CProduct%5CDatasets" sourceFileName="ibrd-statement-of-loans-latest-available-snapshot.csv"/>
 <defaultWriterConfig imx:id="U:faHXdFEHEem28EdceaNwiw" xsi:type="dsoconfig2:FlatbyteWriterConfig" mergeDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" mergeFile="ibrd-statement-of-loans-latest-available-snapshot1.out" targetFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" targetFileName="ibrd-statement-of-loans-latest-available-snapshot.csv"/>
 </datasource:FlatByteDataSource>
-<folder:Folder imx:id="U:ZfP7b1EHEem28EdceaNwiw" name="KS_DEV">
-<contents>
-<IObject imx:idref="U:oRkgMVEHEem28EdceaNwiw" xsi:type="mapping:Mapping"/>
-<IObject imx:idref="U:faHXcFEHEem28EdceaNwiw" xsi:type="datasource:FlatByteDataSource"/>
-</contents>
-</folder:Folder>
 <project:Project imx:id="U:GmivrFEHEemEX5f0T6yoaw" name="KS">
 <imx:annotations>
 <imx:IGenericAnnotations>
@@ -287,8 +281,13 @@
 <Annotation imx:id="ID_84" xsi:type="description:Description"/>
 </annotations>
 <contents>
-<IObject imx:idref="U:ZfP7b1EHEem28EdceaNwiw" xsi:type="folder:Folder"/>
+<IObject imx:id="U:ZfP7b1EHEem28EdceaNwiw" xsi:type="folder:Folder" name="KS_DEV">
+<contents>
+<IObject imx:idref="U:oRkgMVEHEem28EdceaNwiw" xsi:type="mapping:Mapping"/>
+<IObject imx:idref="U:faHXcFEHEem28EdceaNwiw" xsi:type="datasource:FlatByteDataSource"/>
+</contents>
+</IObject>
 </contents>
 </project:Project>
-<imx:crc value="2455870211"/>
+<imx:crc value="1581058662"/>
 </imx:IMX>
