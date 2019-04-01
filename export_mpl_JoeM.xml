@@ -200,23 +200,6 @@
 </AbstractTransformation>
 </transformations>
 </mapping:Mapping>
-<datarecord:Table imx:id="U:rSYSoE9nEemsLsrBsnvIiA" connection="stringIdentity:Ora_CRM" connectionName="Ora_CRM" connectionType="com.informatica.metadata.relational.connectinfo.OracleNativeConnectInfo" name="CRM_CUSTOMER_MAIN1" physicalName="CRM_CUSTOMER_MAIN" primaryKey="U:rSYSq09nEemsLsrBsnvIiA">
-<columns>
-<Column imx:id="U:rSYSoU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fnumber%28p%2Cs%29" name="CUST_ID" odbcPrecision="15" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdecimal" precision="15"/>
-<Column imx:id="U:rSYSok9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_CODE" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
-<Column imx:id="U:rSYSo09nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_NAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
-<Column imx:id="U:rSYSpE9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_FIRSTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
-<Column imx:id="U:rSYSpU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_LASTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
-<Column imx:id="U:rSYSpk9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_MIDDLENAME" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
-<Column imx:id="U:rSYSp09nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_GENDER" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
-<Column imx:id="U:rSYSqE9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_COUNTRY" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
-<Column imx:id="U:rSYSqU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_TIER" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
-<Column imx:id="U:rSYSqk9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fdate" name="CUST_DOB" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdate" precision="19"/>
-</columns>
-<uniqueKeys>
-<UniqueKey imx:id="U:rSYSq09nEemsLsrBsnvIiA" xsi:type="datarecord:PrimaryKey" columns="U:rSYSoU9nEemsLsrBsnvIiA" name="CRM_CUSTOMER_MAIN_PK"/>
-</uniqueKeys>
-</datarecord:Table>
 <datasource:FlatByteDataSource imx:id="U:bEcoZE-IEemoY1Jb2W8hTw" name="Flat_File_Data_Object">
 <fileDefinitions>
 <FlatByteDefinition imx:id="U:bEdPe0-IEemoY1Jb2W8hTw" xsi:type="datarecord1:FlatByteDefinition" codePageObject="smd:com.informatica.metadata.seed.platform.CodePages.codepagesystem%2F2252" defaultDateFormat="A++19+YYYY-MM-DD+HH24:MI:SS" defaultDecimalSeparator="." name="FileByteDefinition">
@@ -268,14 +251,23 @@
 <defaultReaderConfig imx:id="U:bEdPd0-IEemoY1Jb2W8hTw" xsi:type="dsoconfig2:FlatbyteReaderConfig" defaultDynFldPrecision="10" defaultDynFldType="string" lineSequentialBufferLength="1024" schemaType="DataDriven" sourceFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.SourceDir" sourceFileName="Flat_File_Data_Object.dat"/>
 <defaultWriterConfig imx:id="U:bEdPeE-IEemoY1Jb2W8hTw" xsi:type="dsoconfig:FlatbyteWriterConfig" mergeDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" mergeFile="Flat_File_Data_Object1.out" targetFileDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.TargetDir" targetFileName="Flat_File_Data_Object.out"/>
 </datasource:FlatByteDataSource>
-<folder:Folder imx:id="U:iiZrOU9nEemsLsrBsnvIiA" name="DEV">
-<contents>
-<IObject imx:idref="U:rSYSk09nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
-<IObject imx:idref="U:DNJqIE9oEemsLsrBsnvIiA" xsi:type="mapping:Mapping"/>
-<IObject imx:idref="U:rSYSoE9nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
-<IObject imx:idref="U:bEcoZE-IEemoY1Jb2W8hTw" xsi:type="datasource:FlatByteDataSource"/>
-</contents>
-</folder:Folder>
+<datarecord:Table imx:id="U:rSYSoE9nEemsLsrBsnvIiA" connection="stringIdentity:Ora_CRM" connectionName="Ora_CRM" connectionType="com.informatica.metadata.relational.connectinfo.OracleNativeConnectInfo" name="CRM_CUSTOMER_MAIN1" physicalName="CRM_CUSTOMER_MAIN" primaryKey="U:rSYSq09nEemsLsrBsnvIiA">
+<columns>
+<Column imx:id="U:rSYSoU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fnumber%28p%2Cs%29" name="CUST_ID" odbcPrecision="15" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdecimal" precision="15"/>
+<Column imx:id="U:rSYSok9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_CODE" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
+<Column imx:id="U:rSYSo09nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_NAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpE9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_FIRSTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_LASTNAME" nullable="true" odbcPrecision="100" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="100"/>
+<Column imx:id="U:rSYSpk9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_MIDDLENAME" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSp09nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_GENDER" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="10"/>
+<Column imx:id="U:rSYSqE9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_COUNTRY" nullable="true" odbcPrecision="50" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="50"/>
+<Column imx:id="U:rSYSqU9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fvarchar2" name="CUST_TIER" nullable="true" odbcPrecision="20" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="20"/>
+<Column imx:id="U:rSYSqk9nEemsLsrBsnvIiA" xsi:type="datarecord:Column" type="smd:com.informatica.adapters.typesystem.relational.OracleTypeSystem.typesystem%2Fdate" name="CUST_DOB" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fdate" precision="19"/>
+</columns>
+<uniqueKeys>
+<UniqueKey imx:id="U:rSYSq09nEemsLsrBsnvIiA" xsi:type="datarecord:PrimaryKey" columns="U:rSYSoU9nEemsLsrBsnvIiA" name="CRM_CUSTOMER_MAIN_PK"/>
+</uniqueKeys>
+</datarecord:Table>
 <project:Project imx:id="U:d81N209nEemEX5f0T6yoaw" name="JoeM">
 <imx:annotations>
 <imx:IGenericAnnotations>
@@ -286,8 +278,15 @@
 <Annotation imx:id="ID_39" xsi:type="description:Description"/>
 </annotations>
 <contents>
-<IObject imx:idref="U:iiZrOU9nEemsLsrBsnvIiA" xsi:type="folder:Folder"/>
+<IObject imx:id="U:iiZrOU9nEemsLsrBsnvIiA" xsi:type="folder:Folder" name="DEV">
+<contents>
+<IObject imx:idref="U:rSYSk09nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
+<IObject imx:idref="U:DNJqIE9oEemsLsrBsnvIiA" xsi:type="mapping:Mapping"/>
+<IObject imx:idref="U:bEcoZE-IEemoY1Jb2W8hTw" xsi:type="datasource:FlatByteDataSource"/>
+<IObject imx:idref="U:rSYSoE9nEemsLsrBsnvIiA" xsi:type="datarecord:Table"/>
+</contents>
+</IObject>
 </contents>
 </project:Project>
-<imx:crc value="2524861822"/>
+<imx:crc value="934140508"/>
 </imx:IMX>
